@@ -1,5 +1,7 @@
 # Demo: https://codepen.io/azizCode/pen/QWwgYgg?editors=0010
 
+![Demo Tic Tac Toe Class](https://githubgif.s3-us-west-2.amazonaws.com/ezgif.com-video-to-gif.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
