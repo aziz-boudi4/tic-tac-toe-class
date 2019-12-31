@@ -20,7 +20,7 @@ class Board extends React.Component {
       <Square
         value={this.props.squares[i]}
         onClick={() => this.props.onClick(i)}
-        winningBoxes={this.props.winningBoxes}
+        winningBoxes={winningBoxes}
         style={{ color: winningBoxes && winningBoxes.includes(i) ? 'red': 'black' }}
       />
     );
@@ -148,7 +148,7 @@ function calculateWinner(squares) {
     const [a, b, c] = lines[i];
 
     if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-      return [squares[a],lines[i]];
+      return [squares[a], lines[i]];
     }
   }
   return null;
